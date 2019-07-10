@@ -1,5 +1,5 @@
 [info]
-title=Formatter for C, C++, C#, Java
+title=Formatter for C/C++/C#/Java, using AStyle
 desc=Formats source code for these lexers: C, C++, C#, Java; using AStyle library
 type=cudatext-plugin
 subdir=cuda_fmt_astyle
