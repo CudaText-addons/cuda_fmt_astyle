@@ -1,0 +1,13 @@
+[info]
+title=Formatter for C, C++, C#, Java
+desc=Formats source code for these lexers: C, C++, C#, Java; using AStyle library
+type=cudatext-plugin
+subdir=cuda_fmt_astyle
+homepage=https://github.com/CudaText-addons/cuda_fmt_astyle
+os=linux,macos,freebsd
+
+[fmt1]
+caption=AStyle Format
+method=do_format
+lexers=C,C++,C#,Java
+config=cuda_astyle_format.cfg
