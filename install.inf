@@ -1,6 +1,6 @@
 [info]
-title=Formatter for C/C++/C#/Java, using AStyle
-desc=Formats source code for these lexers: C, C++, C#, Java; using AStyle library
+title=Formatter for C/C++/C#/ObjC/Java, using AStyle
+desc=Formats code for lexers: C, C++, C#, Objective-C, Java; using AStyle library
 type=cudatext-plugin
 subdir=cuda_fmt_astyle
 homepage=https://github.com/CudaText-addons/cuda_fmt_astyle
@@ -26,3 +26,8 @@ lexers=C#
 caption=AStyle (Java)
 method=do_format
 lexers=Java
+
+[fmt5]
+caption=AStyle (Objective-C)
+method=do_format
+lexers=Objective-C
