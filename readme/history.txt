@@ -1,3 +1,6 @@
 
+2019.07.17
+* split/rename formatter to 4 items (1 per lexer)
+
 2019.07.10
 initial version

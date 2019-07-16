@@ -7,7 +7,22 @@ homepage=https://github.com/CudaText-addons/cuda_fmt_astyle
 os=linux,macos,freebsd
 
 [fmt1]
-caption=AStyle Format
+caption=AStyle (C)
 method=do_format
-lexers=C,C++,C#,Java
+lexers=C
 config=cuda_astyle_format.cfg
+
+[fmt2]
+caption=AStyle (C++)
+method=do_format
+lexers=C++
+
+[fmt3]
+caption=AStyle (C#)
+method=do_format
+lexers=C#
+
+[fmt4]
+caption=AStyle (Java)
+method=do_format
+lexers=Java
