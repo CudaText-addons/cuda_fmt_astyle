@@ -2,15 +2,12 @@ import os
 from cuda_fmt import get_config_filename
 import cudatext as app
 
-if os.name=='nt':
-    from . import pyastyle
-else:
-    try:
-        import pyastyle
-    except:
-        pyastyle = None
-        app.msg_box('For "AStyle Format", you need to install "pyastyle" Python module in OS. Run:\nsudo pip3 install pyastyle',
-            app.MB_OK+app.MB_ICONERROR)
+try:
+    import pyastyle
+except:
+    pyastyle = None
+    app.msg_box('For AStyle formatter, you need the "pyastyle" Python library. See instruction in the file [CudaText]/py/cuda_fmt_astyle/readme/readme.txt.',
+        app.MB_OK+app.MB_ICONERROR)
 
 def options():
     ini = get_config_filename('AStyle Format')
