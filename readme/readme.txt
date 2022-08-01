@@ -17,6 +17,9 @@ Download the package from https://pypi.org/project/pyastyle/#files
 according to CudaText bitness (32- or 64-bit) and Python version.
 Seems that site doesn't have the version for Python 3.8, so find
 the package elsewhere.
+The .whl files are ZIP files, so just unzip them.
+Unzip folder "pyastyle" to the folder [CudaText]/py, so you
+must have the file "[CudaText]/py/pyastyle/__init__.py".
 
 
 Author: Alexey Torgashin (CudaText)
