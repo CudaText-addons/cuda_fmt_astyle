@@ -4,7 +4,6 @@ desc=Formats code for lexers: C, C++, C#, Objective-C, Java; using AStyle librar
 type=cudatext-plugin
 subdir=cuda_fmt_astyle
 homepage=https://github.com/CudaText-addons/cuda_fmt_astyle
-os=linux,macos,freebsd
 
 [fmt1]
 caption=AStyle (C)
